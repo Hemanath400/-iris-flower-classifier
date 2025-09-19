@@ -1,0 +1,31 @@
+# Iris Flower Classifier
+
+A machine learning project that classifies iris flowers into three species based on their sepal and petal measurements.
+
+## Project Structure
+
+- `explore.py` - Data exploration and analysis
+- `train_model.py` - Model training script
+- `visualize_data.py` - Data visualization functions
+- `iris plot.png` - Sample visualization output
+
+## Dataset
+
+The project uses the classic Iris dataset containing:
+- 150 samples of iris flowers
+- 3 species: setosa, versicolor, and virginica
+- 4 features: sepal length, sepal width, petal length, petal width
+
+## Usage
+
+1. Explore the data: `python explore.py`
+2. Train the model: `python train_model.py`
+3. Visualize results: `python visualize_data.py`
+
+## Requirements
+
+- Python 3.11
+- scikit-learn
+- pandas
+- matplotlib
+- numpy
