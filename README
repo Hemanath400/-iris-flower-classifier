@@ -24,7 +24,7 @@ The project uses the classic Iris dataset containing:
 
 ## Requirements
 
-- Python 3.11
+- Python 3.13
 - scikit-learn
 - pandas
 - matplotlib
