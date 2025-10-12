@@ -29,7 +29,8 @@ accuracy=accuracy_score(y_test,prediction)
 
 print(f"🎯 Model Accuracy: {accuracy * 100:.2f}%")
 
-# (Optional) See the actual predictions vs true values
+#See the actual predictions vs true values
 print("\n📋 First few predictions:")
 for i in range(10):
+
     print(f"Actual: {y_test[i]}, Predicted: {prediction[i]}")
